@@ -1,0 +1,36 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Первая Активность"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Вторая Активность"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_third"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Третья Активность"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_fourth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Четвёртая Активность"/>
+</LinearLayout>

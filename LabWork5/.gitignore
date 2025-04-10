@@ -1,0 +1,216 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc.)
+local.properties
+
+# IntelliJ related files
+.idea/
+*.iml
+out/
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build files
+.cxx/
+.externalNativeBuild/
+ndk-build/
+cxx/
+
+# Signing files
+signing/
+
+# User-specific configurations
+app/debug.keystore
+app/release.keystore
+
+# Capture directory
+captures/
+
+# Logs
+logcat/
+
+# Databinding
+.databinding/
+
+# Instant Run
+app/src/main/java/com/example/yourapp/instant-run/
+
+# Firebase
+firebase-debug.json
+
+# Lombok
+.lombok.config
+
+# VS Code
+.vscode/
+
+# Android Studio 3.x and later
+*.ipr
+*.iws
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries/
+*.idea/libraries/
+*.idea/caches/
+*.idea/modules.xml
+*.idea/dataSources/
+*.idea/dataSources.ids
+*.idea/dataSources.local.xml
+*.idea/sqlDataSources.xml
+*.idea/sqlDataSources.local.xml
+*.idea/scopes/scope_settings.xml
+*.idea/vcs.xml
+*.idea/jsLibraryMappings.xml
+*.idea/datasources.xml
+*.idea/dataSources.ids
+*.idea/dataSources.local.xml
+*.idea/sqlDataSources.xml
+*.idea/sqlDataSources.local.xml
+
+# macOS
+.DS_Store
+
+# Thumbs.db
+Thumbs.db
+
+# Android Studio 4.x and later
+.idea/artifacts/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules/
+.idea/runConfigurations/
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+.idea/copyright/
+.idea/externalLibraries/
+.idea/gradle/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/maven/
+.idea/modules/
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks/
+.idea/workspace.xml
+.idea/copyright/
+.idea/externalLibraries/
+.idea/gradle/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/maven/
+.idea/modules/
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks/
+.idea/workspace.xml
+
+# Android Studio 4.x and later (additional)
+.idea/artifacts/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/modules.xml
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+
+# Android Studio 4.x and later (additional files)
+.idea/copyright/
+.idea/externalLibraries/
+.idea/gradle/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/maven/
+.idea/modules/
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks/
+.idea/workspace.xml
+
+# Android Studio 4.x and later (additional directories)
+.idea/artifacts/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/modules.xml
+.idea/runConfigurations/
+.idea/scopes/
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+
+# Additional files and directories
+*.class
+*.log
+*.swp
+*.bak
+*.tmp
+*.lock
+*.DS_Store
+*.idea/
+*.iml
+*.ipr
+*.iws
+*.jar
+*.apk
+*.aar
+*.dex
+*.class
+*.log
+*.swp
+*.bak
+*.tmp
+*.lock
+*.DS_Store
+*.idea/
+*.iml
+*.ipr
+*.iws
+*.jar
+*.apk
+*.aar
+*.dex
+*.class
+*.log
+*.swp
+*.bak
+*.tmp
+*.lock
+*.DS_Store
+*.idea/
+*.iml
+*.ipr
+*.iws
+*.jar
+*.apk
+*.aar
+*.dex
+
+# Ignore build outputs
+app/build/
+library/build/
