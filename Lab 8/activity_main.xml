@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле ввода текста -->
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст"/>
+
+    <!-- Кнопка "Отправить данные" -->
+    <!-- При нажатии проверяет, есть ли текст в поле ввода и, если есть, отправляет его -->
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить данные"/>
+
+    <!-- Кнопка "Открыть без данных" -->
+    <!-- Открывает SecondActivity без передачи данных -->
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть без данных"/>
+</LinearLayout>
