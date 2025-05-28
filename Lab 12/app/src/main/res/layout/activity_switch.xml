@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Switch
+        android:id="@+id/switchRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Красный"
+        android:thumbTint="#FF0000"
+        android:trackTint="#FFCDD2"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switchGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зелёный"
+        android:thumbTint="#00FF00"
+        android:trackTint="#C8E6C9" />
+
+    <Switch
+        android:id="@+id/switchBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Синий     "
+        android:thumbTint="#0000FF"
+        android:trackTint="#BBDEFB"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</LinearLayout>
