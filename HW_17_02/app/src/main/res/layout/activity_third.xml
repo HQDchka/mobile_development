@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:background="#34495e" />
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Стрелочка" />
+
+    <Button
+        android:id="@+id/buttonBottomRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#3498db"
+        android:text="Кнопка 1" />
+
+    <Button
+        android:id="@+id/buttonTopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#8e44ad"
+        android:text="Кнопка 2" />
+
+    <Button
+        android:id="@+id/buttonCenterRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/view_center"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#c0392b"
+        android:text="Кнопка 3" />
+
+    <Button
+        android:id="@+id/buttonCenterLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#2ecc71"
+        android:text="Кнопка 4" />
+</RelativeLayout>
